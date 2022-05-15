@@ -255,7 +255,7 @@
                 <span style="margin-right: 15px;">1 - 50 orang (2),</span>     
                 <span style="margin-right: 15px;">1 - 25 orang (1)</span>                    
                 <br>       
-                <span class="fw-6 me-2 fw-bold">Fasilitas :</span>
+                <span class="fw-6 me-2 fw-bold">Fasilitas (Benefit) :</span>
                 <span style="margin-right: 15px;">Sangat Lengkap (4),</span>                     
                 <span style="margin-right: 15px;">Lengkap (3),</span>       
                 <span style="margin-right: 15px;">Kurang Lengkap (2),</span>                     
