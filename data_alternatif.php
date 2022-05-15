@@ -212,7 +212,7 @@
                                 Ubah
                               </button>
                                   ||
-                              <a onclick="return confirm('Yakin menghapus data ini ?');" href="hapus_alternatif.php?id=<?=$row["id"]; ?>" class="btn btn-danger btn-sm"   >
+                              <a onclick="return confirm('Yakin menghapus data ini?');" href="hapus_alternatif.php?id=<?=$row["id"]; ?>" class="btn btn-danger btn-sm"   >
                                 Hapus
                               </a>
                             </td>
