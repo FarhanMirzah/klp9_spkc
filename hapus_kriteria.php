@@ -9,7 +9,7 @@
     if(hapus($id) > 0 ){
         $_SESSION['pesan'] = "Data berhasil dihapus!";
         echo "<script> 
-            document.location.href = 'data_kriteria.php';        
+        document.location.href = 'data_kriteria.php';        
         </script> ";
     }
     else{
