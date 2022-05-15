@@ -11,7 +11,6 @@
         echo "<script> 
         document.location.href = 'data_alternatif.php';        
         </script> ";
-
     }
     else{
         $_SESSION['pesan'] = "Data gagal dihapus!";
