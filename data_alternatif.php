@@ -119,40 +119,40 @@
  <!-- ########################## Form tambah data Alternatif ##################### -->
                     <form action="" method="post" enctype="multipart/form-data" autocomplete="off">      
                       <div class="mb-3 row">
-                          <label for="alternatif" class="col-sm-4 col-form-label ms-3">Nama Alternatif</label>
+                          <label for="alternatif" class="col-sm-4 col-form-label ms-3">Alternatif</label>
                           <div class="col-sm">
-                          <input type="text" class="form-control" id="alternatif" name="alternatif" required placeholder="Nama Alternatif">
+                          <input type="text" class="form-control" id="alternatif" name="alternatif" required placeholder="Alternatif">
                           </div>
                       </div>
                       <div class="mb-3 row">
                           <label for="k1" class="col-sm-4 col-form-label ms-3">C1 Variasi Menu</label>
                           <div class="col-sm">
-                          <input type="text" class="form-control" id="k1" name="k1" required placeholder="Variasi Menu">
+                          <input type="number" class="form-control" id="k1" name="k1" required placeholder="Variasi Menu">
                           </div>
                       </div>
                       <div class="mb-3 row">
                           <label for="k2" class="col-sm-4 col-form-label ms-3">C2 Harga	</label>
                           <div class="col-sm">
-                          <input type="text" class="form-control" id="k2" name="k2" required placeholder="Harga">
+                          <input type="number" class="form-control" id="k2" name="k2" required placeholder="Harga">
                           </div>
                       </div>
                       
                       <div class="mb-3 row">
                           <label for="k3" class="col-sm-4 col-form-label ms-3">C3 Jarak</label>
                           <div class="col-sm">
-                          <input type="text" class="form-control" id="k3" name="k3" required placeholder="Jarak">
+                          <input type="number" class="form-control" id="k3" name="k3" required placeholder="Jarak">
                           </div>
                       </div>
                       <div class="mb-3 row">
                           <label for="k4" class="col-sm-4 col-form-label ms-3">C4 Daya Tampung</label>
                           <div class="col-sm">
-                          <input type="text" class="form-control" id="k4" name="k4" required placeholder="Daya Tampung">                        
+                          <input type="number" class="form-control" id="k4" name="k4" required placeholder="Daya Tampung">                        
                           </div>
                       </div>
                       <div class="mb-3 row">
                           <label for="k5" class="col-sm-4 col-form-label ms-3">C5 Fasilitas</label>
                           <div class="col-sm">
-                          <input type="text" class="form-control" id="k5" name="k5" required placeholder="Fasilitas">                        
+                          <input type="number" class="form-control" id="k5" name="k5" required placeholder="Fasilitas">                        
                           </div>
                       </div>
                       
@@ -303,32 +303,32 @@
             <div class="mb-3 row">
                 <label for="k1" class="col-sm-4 col-form-label ms-3">C1 Variasi Menu</label>
                 <div class="col-sm">
-                <input type="text" class="form-control" id="k1" name="k1" required placeholder="Integritas (Sifat)" value="<?= $row["k1"]; ?>">
+                <input type="number" class="form-control" id="k1" name="k1" required placeholder="Variasi Menu" value="<?= $row["k1"]; ?>">
                 </div>
             </div>
             <div class="mb-3 row">
                 <label for="k2" class="col-sm-4 col-form-label ms-3">C2 Harga</label>
                 <div class="col-sm">
-                <input type="text" class="form-control" id="k2" name="k2" required placeholder="Pelayanan" value="<?= $row["k2"]; ?>">
+                <input type="number" class="form-control" id="k2" name="k2" required placeholder="Harga" value="<?= $row["k2"]; ?>">
                 </div>
             </div>
 
             <div class="mb-3 row">
                 <label for="k3" class="col-sm-4 col-form-label ms-3">C3 Jarak</label>
                 <div class="col-sm">
-                <input type="text" class="form-control" id="k3" name="k3" required placeholder="Kehadiran" value="<?= $row["k3"]; ?>">
+                <input type="number" class="form-control" id="k3" name="k3" required placeholder="Jarak" value="<?= $row["k3"]; ?>">
             </div>
             </div>
             <div class="mb-3 row">
                 <label for="k4" class="col-sm-4 col-form-label ms-3">C4 Daya Tampung</label>
                 <div class="col-sm">
-                <input type="text" class="form-control" id="k4" name="k4" required placeholder="kinerja" value="<?= $row["k4"]; ?>">                        
+                <input type="number" class="form-control" id="k4" name="k4" required placeholder="Daya Tampung" value="<?= $row["k4"]; ?>">                        
             </div>
             </div>
             <div class="mb-3 row">
                 <label for="k5" class="col-sm-4 col-form-label ms-3">C5 Fasilitas</label>
                 <div class="col-sm">
-                <input type="text" class="form-control" id="k5" name="k5" required placeholder="Produktivitas" value="<?= $row["k5"]; ?>">                        
+                <input type="number" class="form-control" id="k5" name="k5" required placeholder="Fasilitas" value="<?= $row["k5"]; ?>">                        
             </div>
             </div>
                 <div class="modal-footer">

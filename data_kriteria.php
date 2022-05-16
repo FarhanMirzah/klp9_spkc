@@ -125,7 +125,7 @@
                         <div class="mb-3 row">
                             <label for="bobot" class="col-sm-4 col-form-label ms-3">Bobot</label>
                             <div class="col-sm">
-                            <input type="text" class="form-control" id="bobot" name="bobot" required placeholder="Nilai">
+                            <input type="number" class="form-control" id="bobot" name="bobot" required placeholder="Nilai">
                             </div>
                         </div>
                         
@@ -252,7 +252,7 @@
           <div class="mb-3 row">
               <label for="bobot" class="col-sm-4 col-form-label ms-3">Bobot</label>
               <div class="col-sm">
-              <input type="text" class="form-control" id="bobot" name="bobot" required placeholder="Nilai" value="<?= $row['bobot'];?>">
+              <input type="number" class="form-control" id="bobot" name="bobot" required placeholder="Nilai" value="<?= $row['bobot'];?>">
               </div>
           </div>
           <div class="mb-3 row">
