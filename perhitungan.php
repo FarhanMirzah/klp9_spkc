@@ -203,7 +203,7 @@
               for($i=0;$i<$jmlh_krit;$i++){
                 $bobot_kep[$i] = ($bobot[$i]/$nbbt);
                 $nbkep = $nbkep + $bobot_kep[$i];
-                echo "<td>".round($bobot_kep[$i],4)."</td>";
+                echo "<td>".round($bobot_kep[$i],3)."</td>";
               }
               echo "<td>".$nbkep."</td></tr>";
               echo "</table><hr>";
@@ -223,11 +223,11 @@
               for($i=0;$i<$jmlh_krit;$i++){
                 if($jenis[$i]=="Cost"){
                   $pangkat[$i] = (-1) * $bobot_kep[$i];
-                  echo "<td>".round($pangkat[$i],4)."</td>";
+                  echo "<td>".round($pangkat[$i],3)."</td>";
                 }
                 else{
                   $pangkat[$i] = $bobot_kep[$i];
-                  echo "<td>".round($pangkat[$i],4)."</td>";
+                  echo "<td>".round($pangkat[$i],3)."</td>";
                 }
               }
               echo "</tr>";
@@ -247,7 +247,7 @@
               }
               $ss[$i] = $s[$i][0] * $s[$i][1] * $s[$i][2] * $s[$i][3]*$s[$i][4];
               // rsort($ss);
-              echo "<td>".round($ss[$i],4)."</td></tr>";
+              echo "<td>".round($ss[$i],3)."</td></tr>";
             }
             echo "</table><hr>";
             // akhir perhitungan vektor s
@@ -264,7 +264,7 @@
             }
             for($i=0;$i<$jmlh_alt;$i++){
               echo "<tr><td><b>".$namaAlternatif[$i]."</b></td>";
-              $v[$i] = round($ss[$i]/$total,4);
+              $v[$i] = round($ss[$i]/$total,3);
               echo "<td>".$v[$i]."</td></tr>";
             }
             echo "</table><hr>";
