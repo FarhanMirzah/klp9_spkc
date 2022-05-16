@@ -40,6 +40,12 @@
             <span class="nav-link-text">Perhitungan</span>
           </a>
         </ul>
+
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item me-3">
+            <a class="navbar-brand">Klp 9 - SPK C</a>
+          </li>
+        </ul>
       </nav>
     </header>
     
