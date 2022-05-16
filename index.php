@@ -52,12 +52,18 @@
     <section class="banner mt-4" style="height: 450px;">
       <div class="row">
         <div class="col-6 text-center"  style="color: #525252; ">
-          <h4 style="margin-top:200px; font-size:30px;">Sistem Pendukung Keputusan</h4>
-          <h4 style="font-size:30px;">Metode Weighted Product (WP)</h4>
+          <h1 style="margin-top:100px; font-size:40px;">Sistem Penunjang Keputusan</h1>
+          <h2 style="font-size:40px;">Metode Weighted Product (WP)</h2>
+          <h3 style="font-size:30px;">...</h3>
+          <h3 style="font-size:30px;">Kelompok 9 - SPK C</h3>
+          <p style="font-size:25px;">1. Hagi Siraj Sumanta (2011521015)</p>
+          <p style="font-size:25px;">2. Ruth Emeralda Raihan (2011522018)</p>
+          <p style="font-size:25px;">3. Muhammad Farhan Ananda Mirzah (2011522022)</p>
+          <p style="font-size:25px;">4. Faradila Suwandi (2011523010)</p>
         </div>  
 
         <div class="col-5 mt-5">
-          <img src="assets/img/restaurant.png" alt="restaurant" width="300px" style="margin-top: 30px;">
+          <img src="assets/img/restaurant.png" alt="restaurant" width="400px" style="margin-top: 50px;">
         </div>  
       </div>
     </section>
