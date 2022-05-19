@@ -24,13 +24,20 @@
         $kriteria = htmlspecialchars($data["kriteria"]);
         $bobot = htmlspecialchars($data["bobot"]);
         $jenis = htmlspecialchars($data["jns"]);
+        $cek_kriteria = mysqli_num_rows (mysqli_query($conn, "SELECT * FROM tbl_kriteria WHERE kriteria='$kriteria'"));
 
-        $query = "INSERT INTO tbl_kriteria
-                VALUES
-                ('','$kriteria','$bobot','$jenis')
-                ";
-        mysqli_query($conn, $query);
-        return mysqli_affected_rows($conn);
+        if($cek_kriteria > 0) {
+            // Jika nama kriteria sama dengan yang ada di database
+            // akan muncul pesan "Data gagal ditambahkan!" (cari di data_kriteria.php)
+        }
+        else {
+            $query = "INSERT INTO tbl_kriteria
+                    VALUES
+                    ('','$kriteria','$bobot','$jenis')
+                    ";
+            mysqli_query($conn, $query);
+            return mysqli_affected_rows($conn);    
+        }
     }
         
     // ubah kriteria
@@ -40,17 +47,24 @@
         $kriteria = htmlspecialchars($data["kriteria"]);
         $bobot = htmlspecialchars($data["bobot"]);
         $jenis = htmlspecialchars($data["jns"]);
-            
-        $query = "UPDATE tbl_kriteria 
-                SET
-                kriteria = '$kriteria',
-                bobot = '$bobot',
-                jns= '$jenis'
+        $cek_kriteria = mysqli_num_rows (mysqli_query($conn, "SELECT * FROM tbl_kriteria WHERE kriteria='$kriteria'"));
 
-                WHERE id = $id
-                ";
-        mysqli_query($conn,$query);
-        return mysqli_affected_rows($conn);
+        if($cek_kriteria > 0) {
+            // Jika nama kriteria sama dengan yang ada di database
+            // akan muncul pesan "Data gagal diperbarui!" (cari di data_kriteria.php)
+        }
+        else {
+            $query = "UPDATE tbl_kriteria 
+                    SET
+                    kriteria = '$kriteria',
+                    bobot = '$bobot',
+                    jns= '$jenis'
+
+                    WHERE id = $id
+                    ";
+            mysqli_query($conn,$query);
+            return mysqli_affected_rows($conn);
+        }
     }
 
     function hapus($id){

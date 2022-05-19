@@ -26,14 +26,20 @@
         $k3 = htmlspecialchars($data['k3']);
         $k4 = htmlspecialchars($data['k4']);
         $k5 = htmlspecialchars($data['k5']);
+        $cek_alternatif = mysqli_num_rows (mysqli_query($conn, "SELECT * FROM tbl_alternatif WHERE alternatif='$alternatif'"));
 
-        $query = "INSERT INTO tbl_alternatif
-                VALUES
-                ('','$alternatif', '$k1', '$k2', '$k3', '$k4', '$k5')
-                ";
-        mysqli_query($conn, $query);
-        return mysqli_affected_rows($conn);
-
+        if($cek_alternatif > 0) {
+            // Jika nama alternatif sama dengan yang ada di database
+            // akan muncul pesan "Data gagal ditambahkan!" (cari di data_alternatif.php)
+        }
+        else {
+            $query = "INSERT INTO tbl_alternatif
+                    VALUES
+                    ('','$alternatif', '$k1', '$k2', '$k3', '$k4', '$k5')
+                    ";
+            mysqli_query($conn, $query);
+            return mysqli_affected_rows($conn);           
+        }
     }
 
     function ubah($data){
@@ -45,20 +51,27 @@
         $k3 = htmlspecialchars($data["k3"]);
         $k4 = htmlspecialchars($data["k4"]);
         $k5 = htmlspecialchars($data["k5"]);
+        $cek_alternatif = mysqli_num_rows (mysqli_query($conn, "SELECT * FROM tbl_alternatif WHERE alternatif='$alternatif'"));
 
-        $query = "UPDATE tbl_alternatif 
-                SET
-                alternatif = '$alternatif',
-                k1 = '$k1',
-                k2 = '$k2',
-                k3 = '$k3',
-                k4 = '$k4',
-                k5 = '$k5'
+        if($cek_alternatif > 0) {
+            // Jika nama alternatif sama dengan yang ada di database
+            // akan muncul pesan "Data gagal diperbarui!" (cari di data_alternatif.php)
+        }
+        else {
+            $query = "UPDATE tbl_alternatif 
+                    SET
+                    alternatif = '$alternatif',
+                    k1 = '$k1',
+                    k2 = '$k2',
+                    k3 = '$k3',
+                    k4 = '$k4',
+                    k5 = '$k5'
 
-                WHERE id = $id
-                ";
-        mysqli_query($conn,$query);
-        return mysqli_affected_rows($conn);
+                    WHERE id = $id
+                    ";
+            mysqli_query($conn,$query);
+            return mysqli_affected_rows($conn);    
+        }
     }
 
     // hapus
