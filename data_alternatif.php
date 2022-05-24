@@ -233,42 +233,53 @@
       </div>
     </div>
   <!-- ########################## AKHIR CARD TABEL ################################                      -->
-    <div class="mb-3 row ms-1">
-        <div class="col-sm">
-            <div class="form-text">
-              <br>       
-                <span class="fw-6 me-2 fw-bold">Variasi Menu (Benefit) :</span>
-                <span style="margin-right: 15px;">4. Sangat Banyak,</span>                     
-                <span style="margin-right: 15px;">3. Banyak,</span>                     
-                <span style="margin-right: 15px;">2. Sedang,</span>            
-                <span style="margin-right: 15px;">1. Sedikit</span>     
-                <br>      
-                <span class="fw-6 me-2 fw-bold">Harga (Cost) :</span>
-                <span style="margin-right: 15px;">4. Sangat Mahal (> Rp30.000),</span>                      
-                <span style="margin-right: 15px;">3. Mahal (<= Rp30.000),</span>                      
-                <span style="margin-right: 15px;">2. Terjangkau (<= Rp20.000),</span>                      
-                <span style="margin-right: 15px;">1. Murah (<= Rp10.000)</span>  
-                <br>        
-                <span class="fw-6 me-2 fw-bold">Jarak (Cost) :</span>
-                <span style="margin-right: 15px;">4. Jauh (> 4 km),</span>                     
-                <span style="margin-right: 15px;">3. Agak Jauh (3-4 km),</span>                     
-                <span style="margin-right: 15px;">2. Dekat: (2-3 km),</span>      
-                <span style="margin-right: 15px;">1. Sangat Dekat: (0-1 km)</span>                    
-                <br>       
-                <span class="fw-6 me-2 fw-bold">Daya Tampung (Benefit) :</span>
-                <span style="margin-right: 15px;">4. Max 100 orang,</span>                     
-                <span style="margin-right: 15px;">3. Max 75 orang,</span>                     
-                <span style="margin-right: 15px;">2. Max 50 orang,</span>     
-                <span style="margin-right: 15px;">1. Max 25 orang</span>                    
-                <br>       
-                <span class="fw-6 me-2 fw-bold">Fasilitas (Benefit) :</span>
-                <span style="margin-right: 15px;">4. Sangat Lengkap,</span>                     
-                <span style="margin-right: 15px;">3. Lengkap,</span>       
-                <span style="margin-right: 15px;">2. Kurang Lengkap,</span>                     
-                <span style="margin-right: 15px;">1. Tidak Lengkap</span>                                     
-            </div>
-        </div>
-    </div>
+  <div class="table-responsive rounded mt-3 ms-3 me-3">
+                <table class="table table-bordered table-hover table-striped text-center" cellspacing="0">
+                  <tr class="table-success">
+                    <th>Nilai</th>
+                    <th>C1 Variasi Menu</th>
+                    <th>C2 Harga</th>
+                    <th>C3 Jarak</th>
+                    <th>C4 Daya Tampung</th>
+                    <th>C5 Fasilitas</th>
+                  </tr>
+
+                  <tr>
+                    <td>4</td>
+                    <td>Sangat Banyak</td>
+                    <td>Sangat Mahal (> Rp30.000)</td>
+                    <td>Jauh (> 4 km)</td>
+                    <td>Max 100 orang</td>
+                    <td>Sangat Lengkap</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Banyak</td>
+                    <td>Mahal (<= Rp30.000)</td>
+                    <td>Agak Jauh (3-4 km)</td>
+                    <td>Max 75 orang</td>
+                    <td>Lengkap</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Sedang</td>
+                    <td>Terjangkau (<= Rp20.000)</td>
+                    <td>Dekat (2-3 km)</td>
+                    <td>Max 50 orang</td>
+                    <td>Kurang Lengkap</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Sedikit</td>
+                    <td>Murah (<= Rp10.000)</td>
+                    <td>Sangat Dekat (0-1 km)</td>
+                    <td>Max 25 orang</td>
+                    <td>Tidak Lengkap</td>
+                  </tr>
+                </table>
+              <!-- akhihr tabel -->
+              <!-- <div class="card-footer small text-muted"> Update <?= date("l, d-M-Y H:i:s") ?></div> -->
+          </div>  
 </div>
  <!-- ########################## AKHIR CONTAINER ################################                      --> 
 </div>  
