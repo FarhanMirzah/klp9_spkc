@@ -238,34 +238,34 @@
             <div class="form-text">
               <br>       
                 <span class="fw-6 me-2 fw-bold">Variasi Menu (Benefit) :</span>
-                <span style="margin-right: 15px;">Sangat Banyak (4),</span>                     
-                <span style="margin-right: 15px;">Banyak (3),</span>                     
-                <span style="margin-right: 15px;">Sedang (2),</span>            
-                <span style="margin-right: 15px;">Sedikit (1)</span>     
+                <span style="margin-right: 15px;">4. Sangat Banyak,</span>                     
+                <span style="margin-right: 15px;">3. Banyak,</span>                     
+                <span style="margin-right: 15px;">2. Sedang,</span>            
+                <span style="margin-right: 15px;">1. Sedikit</span>     
                 <br>      
                 <span class="fw-6 me-2 fw-bold">Harga (Cost) :</span>
-                <span style="margin-right: 15px;">Sangat Mahal (4),</span>                      
-                <span style="margin-right: 15px;">Mahal (3),</span>                      
-                <span style="margin-right: 15px;">Terjangkau (2),</span>                      
-                <span style="margin-right: 15px;">Murah (1)</span>  
+                <span style="margin-right: 15px;">4. Sangat Mahal (> Rp30.000),</span>                      
+                <span style="margin-right: 15px;">3. Mahal (<= Rp30.000),</span>                      
+                <span style="margin-right: 15px;">2. Terjangkau (<= Rp20.000),</span>                      
+                <span style="margin-right: 15px;">1. Murah (<= Rp10.000)</span>  
                 <br>        
                 <span class="fw-6 me-2 fw-bold">Jarak (Cost) :</span>
-                <span style="margin-right: 15px;">Jauh (4),</span>                     
-                <span style="margin-right: 15px;">Agak Jauh (3),</span>                     
-                <span style="margin-right: 15px;">Dekat (2),</span>      
-                <span style="margin-right: 15px;">Sangat Dekat (1)</span>                    
+                <span style="margin-right: 15px;">4. Jauh (> 4 km),</span>                     
+                <span style="margin-right: 15px;">3. Agak Jauh (3-4 km),</span>                     
+                <span style="margin-right: 15px;">2. Dekat: (2-3 km),</span>      
+                <span style="margin-right: 15px;">1. Sangat Dekat: (0-1 km)</span>                    
                 <br>       
                 <span class="fw-6 me-2 fw-bold">Daya Tampung (Benefit) :</span>
-                <span style="margin-right: 15px;">1 - 100 orang (4),</span>                     
-                <span style="margin-right: 15px;">1 - 75 orang (3),</span>                     
-                <span style="margin-right: 15px;">1 - 50 orang (2),</span>     
-                <span style="margin-right: 15px;">1 - 25 orang (1)</span>                    
+                <span style="margin-right: 15px;">4. Max 100 orang,</span>                     
+                <span style="margin-right: 15px;">3. Max 75 orang,</span>                     
+                <span style="margin-right: 15px;">2. Max 50 orang,</span>     
+                <span style="margin-right: 15px;">1. Max 25 orang</span>                    
                 <br>       
                 <span class="fw-6 me-2 fw-bold">Fasilitas (Benefit) :</span>
-                <span style="margin-right: 15px;">Sangat Lengkap (4),</span>                     
-                <span style="margin-right: 15px;">Lengkap (3),</span>       
-                <span style="margin-right: 15px;">Kurang Lengkap (2),</span>                     
-                <span style="margin-right: 15px;">Tidak Lengkap (1)</span>                                     
+                <span style="margin-right: 15px;">4. Sangat Lengkap,</span>                     
+                <span style="margin-right: 15px;">3. Lengkap,</span>       
+                <span style="margin-right: 15px;">2. Kurang Lengkap,</span>                     
+                <span style="margin-right: 15px;">1. Tidak Lengkap</span>                                     
             </div>
         </div>
     </div>
